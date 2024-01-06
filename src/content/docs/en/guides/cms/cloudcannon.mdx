@@ -2,15 +2,35 @@
 title: CloudCannon & Astro
 description: Add content to your Astro project using CloudCannon as a CMS
 type: cms
-stub: true
 service: CloudCannon
+stub: false
 i18nReady: false
 ---
+import FileTree from '~/components/FileTree.astro'
+import PackageManagerTabs from '~/components/tabs/PackageManagerTabs.astro'
 
 import Grid from '~/components/FluidGrid.astro'
 import Card from '~/components/ShowcaseCard.astro'
 
 [CloudCannon](https://cloudcannon.com) is a Git-based content management system that provides a visual editor for your content.
+
+## Integrating with Astro
+
+### Prerequisites
+
+To get started, you will need to have the following:
+
+1. **An Astro project** - If you don't have an Astro project yet, our [Installation guide](/en/install/auto/) will get you up and running in no time.
+
+2. **A CloudCannon account** - If you don't have an account yet, [sign up](https://app.cloudcannon.com/register) for a free trial. 
+
+[Connect CloudCannon](https://cloudcannon.com/documentation/articles/connecting-a-github-repository-as-your-source/) to your Astro project's repository (hosted on GitHub, Bitbucket, or GiLab) to get started.
+
+## Making a blog with Astro and CloudCannon
+
+With the integration set up, you can now create a blog with Astro and CloudCannon.
+
+### Prerequisites
 
 ## Official Resources
 
